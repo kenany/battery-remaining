@@ -1,5 +1,7 @@
 # battery-remaining
 
+[![Dependency Status][gemnasium-svg]][gemnasium]
+
 Get the remaining charge in a battery. Probably only works on Linux.
 
 ## Example
@@ -33,3 +35,7 @@ var batteryRemaining = require('battery-remaining');
 
 Calls `callback(error, remaining)`, where `error` is any _Error_ encountered
 and _Number_ `remaining` is the charge remaining in _String_ `battery` in watts.
+
+
+   [gemnasium]: https://gemnasium.com/KenanY/battery-remaining
+   [gemnasium-svg]: https://img.shields.io/gemnasium/KenanY/battery-remaining.svg
