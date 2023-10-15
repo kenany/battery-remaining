@@ -5,7 +5,7 @@
   "keywords": [
     "battery"
   ],
-  "repository": "KenanY/battery-remaining",
+  "repository": "github:kenany/battery-remaining",
   "license": "MIT",
   "author": "Kenan Yildirim <kenan@kenany.me> (https://kenany.me/)",
   "main": "index.js",
@@ -17,18 +17,18 @@
     "test": "test"
   },
   "engines": {
-    "node": "14 || 16 || >=18"
+    "node": "18 || >=20"
   },
   "scripts": {
     "test": "tape test/index.js"
   },
   "dependencies": {
     "battery-path": "^1.0.0",
-    "first-line": "^3.0.1",
+    "first-line": "^4.0.0",
     "lodash.isfunction": "^3.0.9"
   },
   "devDependencies": {
     "lodash.isnumber": "^3.0.3",
-    "tape": "^5.6.6"
+    "tape": "^5.7.1"
   }
 }
